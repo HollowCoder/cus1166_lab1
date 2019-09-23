@@ -14,9 +14,9 @@ def main():
     #roster.append(Student("Chris"))
     #roster.append(Student("Isaac"))
 
-    for count in range(1):
-        name = input("Name: ")
-        grade = input("Grade: ")
+    for count in range(10):
+        name = input()
+        grade = input()
         new_student = Student(name, grade)
         roster.append(new_student)
     
@@ -27,5 +27,5 @@ def main():
 
     average_grade(roster)
 
-    for count in roster:
-        roster.print_student_info(count)
+    for student in roster:
+        student.printStudentInfo(student)

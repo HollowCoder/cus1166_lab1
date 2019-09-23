@@ -1,7 +1,5 @@
 from mymodules.models import Student
 
 def average_grade(roster):
-    total = 0
-    for count in roster:
-        total += roster
-    return total
+    grades = [Student.student_grade for Student in roster]
+    return sum(grades) / len(grades)
