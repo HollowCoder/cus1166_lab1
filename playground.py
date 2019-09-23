@@ -11,15 +11,15 @@ print(f"Variable i has the value {i}")
 
 
 f = 1.6180339
-print(f"Variable i has the value {f}")
+print(f"Variable f has the value {f}")
 
 
 b = True
-print(f"Variable i has the value {b}")
+print(f"Variable b has the value {b}")
 
 
 n = None
-print(f"Variable i has the value {n}")
+print(f"Variable n has the value {n}")
 
 
 c = (10, 20, 10)
